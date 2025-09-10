@@ -88,3 +88,4 @@ void app_main() {
     xTaskCreate(button_task, "button_task", 2048, NULL, 5, NULL);
     xTaskCreate(led_task, "led_task", 2048, NULL, 5, NULL);
 }
+// có con cạc nè
