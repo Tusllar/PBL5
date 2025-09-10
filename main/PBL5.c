@@ -83,7 +83,7 @@ void led_task(void *pvParameter) {
         vTaskDelay(pdMS_TO_TICKS(30)); // tốc độ fade
     }
 }
-
+// Thay đổi ở đây nè hehehe
 void app_main() {
     xTaskCreate(button_task, "button_task", 2048, NULL, 5, NULL);
     xTaskCreate(led_task, "led_task", 2048, NULL, 5, NULL);
